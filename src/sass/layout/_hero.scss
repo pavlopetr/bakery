@@ -1,0 +1,69 @@
+.hero__blok {
+  width: 1410px;
+  height: 791px;
+  background-color: rgba(231, 212, 190, 0.44);
+  // background-color: red;
+}
+.hero__blok-date {
+  display: flex;
+  position: absolute;
+  left: 135px;
+  top: 249px;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: var(--primary-text-color);
+}
+.hero__blok-main {
+  position: absolute;
+  width: 467px;
+  height: 240px;
+  left: 135px;
+  top: 302px;
+  font-family: 'Ultra';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 80px;
+}
+.hero__blok-diskription {
+  position: absolute;
+  width: 470px;
+  height: 70px;
+  left: 135px;
+  top: 569px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+.hero__blok-img {
+  position: absolute;
+  width: 715px;
+  height: 791px;
+  left: 711px;
+  top: 48px;
+}
+.hero__blok-combined {
+  position: absolute;
+  width: 64.56px;
+  height: 56.17px;
+  left: 460.64px;
+  top: 265.09px;
+  transform: rotate(93.15deg);
+}
+// .hero__blok-ears{
+//     position: absolute;
+//     width: 133.99px;
+//     height: 276.12px;
+//     left: 70.71px;
+//     top: 96px;
+// transform: rotate(29.2deg);
+
+// }

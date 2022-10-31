@@ -1,2 +1,12 @@
+@import'./utils/variables';
+
 @import './common';
-@import './example';
+
+@import'./base/reset';
+@import'./base/container';
+@import'./base/section';
+@import'./base/body';
+
+@import './layout/header';
+@import './layout/hero';
+@import './layout/about'
