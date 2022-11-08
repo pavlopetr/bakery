@@ -1,86 +1,80 @@
-.features__title{
-    position: absolute;
-width: 585px;
-height: 64px;
-left: 427px;
-top: 1899px;
+.features__title {
+  position: absolute;
+  width: 585px;
+  height: 64px;
+  left: 427px;
+  top: 1899px;
 
-font-family: 'Ultra';
-font-style: normal;
-font-weight: 400;
-font-size: 55px;
-line-height: 64px;
-/* identical to box height, or 114% */
-
-text-align: center;
-};
-.features__deskr{
-    position: absolute;
-left: 661px;
-top: 1849px;
-
-font-family: 'Oswald';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 32px;
-/* identical to box height, or 200% */
-
-text-align: center;
-letter-spacing: 3px;
-text-transform: uppercase
+  font-family: 'Ultra';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 64px;
+  text-align: center;
 }
-.features__cart{
-    display: flex;
-    top: 2032px;
-    position: absolute;
-    margin-left: 107px;
+.features__deskr {
+  position: absolute;
+  left: 661px;
+  top: 1849px;
 
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  /* identical to box height, or 200% */
+
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }
-.features__cart-list:hover{
-    background-color: antiquewhite;
+.features__cart {
+  display: flex;
+  top: 2032px;
+  position: absolute;
+  margin-left: 107px;
 }
-.features__desk{
-    // position: absolute;
-width: 306px;
-height: 69px;
-// left: 199px;
-// top: 2299px;
-margin-left: 42px;
-
-font-family: 'DM Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 32px;
-/* or 200% */
-
-
-color: rgba(51, 51, 51, 0.496405);
+.features__cart-list:hover {
+  background-color: var(--accent-color);
+  transition: background-color, var(--transition);
+  .features__icon {
+    fill: aliceblue;
+    transition: fill, var(--transition);
+  }
 }
-.features__card-title{
-    // position: absolute;
-width: 143px;
-height: 48px;
-// left: 199px;
-// top: 2233px;
-margin-left: 57px;
+.features__desk {
+  // position: absolute;
+  width: 306px;
+  height: 69px;
+  margin-left: 42px;
+  margin-top: 30px;
 
-
-font-family: 'Ultra';
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 48px;
-/* identical to box height, or 120% */
-
-
-color: #171B1B;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+  color: rgba(51, 51, 51, 0.496405);
 }
-.features__cart-list{
-    width: 400px;
-    border: 1px solid black;
+.features__card-title {
+  // position: absolute;
+  width: 143px;
+  height: 48px;
+  margin-left: 57px;
+
+  font-family: 'Ultra';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 48px;
+  color: #171b1b;
 }
-.features__icon{
-    margin-left: 42px;
+.features__cart-list {
+  width: 400px;
+//   border: 1px solid black;
+}
+.features__icon {
+  margin-left: 42px;
+  padding-top: 31px;
+  fill: #f5ae5c;
 }
