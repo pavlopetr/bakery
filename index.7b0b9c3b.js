@@ -1,0 +1,2 @@
+!function(){for(var o=document.querySelectorAll(".open_modal"),e=document.getElementById("close_modal"),t=document.getElementById("modal"),c=document.getElementsByTagName("body")[0],n=0;n<o.length;n++)o[n].onclick=function(){t.classList.add("modal_vis"),t.classList.remove("bounceOutDown"),c.classList.add("body_block")};e.onclick=function(){t.classList.add("bounceOutDown"),window.setTimeout((function(){t.classList.remove("modal_vis"),c.classList.remove("body_block")}),500)}}();
+//# sourceMappingURL=index.7b0b9c3b.js.map
